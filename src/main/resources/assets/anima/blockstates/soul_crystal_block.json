@@ -1,0 +1,51 @@
+{	
+	"forge_marker": 1,
+	"defaults": {
+		"model": "anima:crystal"
+	},
+	"variants": {
+		"age": {
+			"0": {
+				"textures": {
+					"crystal": "anima:blocks/soulcrystal/0"
+				}
+			},
+			"1": {
+				"textures": {
+					"crystal": "anima:blocks/soulcrystal/1"
+				}
+			},
+			"2": {
+				"textures": {
+					"crystal": "anima:blocks/soulcrystal/2"
+				}
+			},
+			"3": {
+				"textures": {
+					"crystal": "anima:blocks/soulcrystal/3"
+				}
+			},
+			"4": {
+				"textures": {
+					"crystal": "anima:blocks/soulcrystal/4"
+				}
+			},
+			"5": {
+				"textures": {
+					"crystal": "anima:blocks/soulcrystal/5"
+				}
+			},
+			"6": {
+				"textures": {
+					"crystal": "anima:blocks/soulcrystal/6"
+				}
+			},
+			"7": {
+				"textures: {
+					"crystal": "anima:blocks/soulcrystal/7"
+				}
+			}
+		}
+	}
+}
+			

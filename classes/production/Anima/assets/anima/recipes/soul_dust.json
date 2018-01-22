@@ -1,0 +1,26 @@
+{
+	"type": "forge:ore_shapeless",
+	"group": "soul",
+	"ingredients": [
+		{
+			"type": "forge:ore_dict",
+			"ore": "dustSoul"
+		},
+		{
+			"type": "forge:ore_dict",
+			"ore": "dustSoul"
+		},
+		{
+			"type": "forge:ore_dict",
+			"ore": "dustSoul"
+		},
+		{
+			"type": "forge:ore_dict",
+			"ore": "ingotIron"
+		}
+	],
+	"result": {
+		"item": "anima:soul_metal"
+	}
+}
+	

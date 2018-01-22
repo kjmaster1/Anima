@@ -1,0 +1,15 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "forge:fluid"
+	},
+	"variants": {
+		"molten_soul_crystal": [
+			{
+				"custom": {
+					"fluid": "molten_soul_crystal"
+				}
+			}
+		]
+	}
+}
