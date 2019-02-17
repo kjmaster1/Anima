@@ -15,7 +15,7 @@ public class ItemSoulBlade extends ItemSword implements IAnimaModel {
         super(Anima.soulMaterial);
         setUnlocalizedName("soul_blade");
         setRegistryName("soul_blade");
-        setCreativeTab(CreativeTabs.COMBAT);
+        setCreativeTab(Anima.animaTab);
     }
 
     @SideOnly(Side.CLIENT)

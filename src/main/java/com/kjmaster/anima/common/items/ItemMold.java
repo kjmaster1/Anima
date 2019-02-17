@@ -1,5 +1,6 @@
 package com.kjmaster.anima.common.items;
 
+import com.kjmaster.anima.Anima;
 import com.kjmaster.anima.common.init.IAnimaModel;
 import com.kjmaster.anima.common.init.ModItems;
 import com.kjmaster.anima.utils.EnumHandler;
@@ -14,6 +15,7 @@ public class ItemMold extends Item implements IAnimaModel {
         setUnlocalizedName("mold");
         setRegistryName("mold");
         setHasSubtypes(true);
+        setCreativeTab(Anima.animaTab);
     }
 
     @Override

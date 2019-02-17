@@ -1,5 +1,6 @@
 package com.kjmaster.anima.common.items;
 
+import com.kjmaster.anima.Anima;
 import com.kjmaster.anima.common.init.IAnimaModel;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
@@ -15,6 +16,7 @@ public class GenericAnimaItem extends Item implements IAnimaModel {
         setRegistryName(name);
         setCreativeTab(tab);
         setMaxStackSize(stackSize);
+        setCreativeTab(Anima.animaTab);
     }
 
     @SideOnly(Side.CLIENT)

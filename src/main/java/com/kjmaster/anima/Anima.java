@@ -1,9 +1,12 @@
 package com.kjmaster.anima;
 
 import com.kjmaster.anima.common.CommonProxy;
+import com.kjmaster.anima.common.init.ModItems;
 import com.kjmaster.anima.common.init.ModRecipes;
 import com.kjmaster.anima.common.recipe.CastingTableHandler;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.common.Mod;
@@ -23,6 +26,13 @@ public class Anima
 
     public static Item.ToolMaterial soulMaterial = EnumHelper.addToolMaterial("SOUL",2,
             200, 7.0F, 1.0F, 18);
+
+    public static CreativeTabs animaTab = new CreativeTabs(Anima.MODID) {
+        @Override
+        public ItemStack getTabIconItem() {
+            return new ItemStack(ModItems.soulCrystal);
+        }
+    };
 
     @SidedProxy(clientSide = "com.kjmaster.anima.client.ClientProxy", serverSide = "com.kjmaster.anima.common.CommonProxy")
     public static CommonProxy proxy;

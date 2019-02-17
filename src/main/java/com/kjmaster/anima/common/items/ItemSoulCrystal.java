@@ -1,5 +1,6 @@
 package com.kjmaster.anima.common.items;
 
+import com.kjmaster.anima.Anima;
 import com.kjmaster.anima.common.init.IAnimaModel;
 import com.kjmaster.anima.common.init.ModBlocks;
 import com.kjmaster.anima.common.items.entity.EntityItemSoulCrystal;
@@ -25,6 +26,7 @@ public class ItemSoulCrystal extends ItemSeeds implements IAnimaModel {
         super(ModBlocks.soulCrystal, Blocks.SOUL_SAND);
         setUnlocalizedName("soul_crystal_item");
         setRegistryName("soul_crystal_item");
+        setCreativeTab(Anima.animaTab);
     }
 
     @SideOnly(Side.CLIENT)

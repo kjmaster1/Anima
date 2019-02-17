@@ -35,6 +35,7 @@ public class BlockCastingTable extends Block implements IAnimaModel {
         super(Material.IRON);
         setUnlocalizedName("casting_table");
         setRegistryName("casting_table");
+        setCreativeTab(Anima.animaTab);
     }
 
     @Override
